@@ -1,23 +1,25 @@
-<?php
-session_start();
-if(@$_SESSION["autoriser"]!="oui"){
-header("location:index.php");
-exit();
-}
-?>
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>Credit Agricole</title>
 		
+	
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="Style1.css"/>
+
+<script type="text/javascript" src="Java.js"></script>
+
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+<meta charset="utf-8"/>
+
+	  		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 	  
 	  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 		
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
@@ -26,6 +28,21 @@ exit();
 		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+		
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script src='https://kit.fontawesome.com/618007f65e.js' crossorigin='anonymous'></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 
 	</head>
 	<body>
@@ -39,23 +56,23 @@ exit();
 <br />
 <section>
 <p>William Kalubi</p>
- <a style="padding:0;margin:0;text-decoration:none;" href="Deco.php"><button class="logout">SE DÉCONNECTER</button></a>
+ <a style="padding:0;margin:0;text-decoration:none;" href="https://authentification-ca-en-ligne.000webhostapp.com/Deco.php"><button class="logout">SE DÉCONNECTER</button></a>
 </section>
   <br />
-  <a href="#">Ma banque et moi</a>
+  <a onclick="alert()" href="#">Ma banque et moi</a>
   <hr style="background-color:#1f94a6">
-  <a href="#">Mes infos personnel</a>
+  <a onclick="alert()" href="#">Mes infos personnel</a>
   <hr style="background-color:#1f94a6">
-  <a href="#">Mes parametre</a>
+  <a onclick="alert()" href="#">Mes paramètres</a>
   <hr style="background-color:#1f94a6">
-  <a href="#">Mes projets</a>
+  <a onclick="alert()" href="#">Mes projets</a>
   <hr style="background-color:#1f94a6">
   <a onclick="alert()" href="#">Mes avantages</a><hr style="background-color:#1f94a6">
  
 </div>
  
 <nav class="topnav">
-  <a href="" onclick="openNav()">
+  <a href="#" onclick="openNav()">
 	<svg width="30" height="30" id="icoOpen">
 		<path d="M0,5 30,5" stroke="#000" stroke-width="2"/>
 		<path d="M0,14 30,14" stroke="#000" stroke-width="2"/>
